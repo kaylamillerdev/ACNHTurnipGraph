@@ -52,9 +52,6 @@ class Create:
             print('Data saved successfully')
          
             connection.close()
-        
-       
-        def addMoreData():
             moreData = input("Would you like to enter another data point?: (y/n) \n >")
             if(moreData == "y"):
                 createAnEntry()
@@ -63,5 +60,3 @@ class Create:
                 quit()
 
         createAnEntry()
-        addMoreData()
-
